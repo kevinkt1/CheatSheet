@@ -5,7 +5,7 @@
 |---|---|
 | [0-9] | Match digits 0 through 9 |
 | a | Match 'a' |
-| f{2} | Match two consecutive 'f' |
+| f{2} | Quantifier to match exactly two consecutive 'f' |
 | . | Match any single character except newline |
 | \. | Match '.' |
 | * | Match all characters |
