@@ -2,5 +2,7 @@
 
 ##### Diff
 ###### Ignore whitespace
-`diff -w`
+```bash
+diff -w
+```
 
