@@ -7,8 +7,22 @@
 | a | Match 'a' |
 | f{2} | Quantifier to match exactly two consecutive 'f' |
 | . | Match any single character except newline |
-| \. | Match '.' |
 | * | Match all characters |
+| \. | Match '.' |
+| | |
+| | |
+| | |
+| | |
+| | |
+| \d | Match digits 0 through 9 |
+| \D | Match any non-digit character |
+| \s | Match any whitespace character [ \r\n\t\f ] |
+| \S | Match any non-whitespace character |
+| | |
+| | |
+| | |
+| | |
+| | |
 | ^ | Anchor for beginning of string |
 | $ | Anchor for end of string |
 
