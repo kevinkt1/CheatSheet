@@ -12,9 +12,10 @@
 | | |
 | | |
 | Category | Character Class |
-| [0-9] | Match digits 0 through 9 |
 | [aeiou] | Match one of the given characters |
 | [^aeiou] | Match any other character that is not given |
+| [0-9] | Match digits 0 through 9 |
+| [a-z] | Match letters a through z |
 | | |
 | | |
 | | |
