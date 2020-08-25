@@ -26,9 +26,10 @@
 | | |
 | | |
 | **Category** | **Quantifier** |
-| f{2} | Match exactly two consecutive 'f' |
 | [xyz]{5} | Match the string of length 5 consisting of characters {x,y,z}|
-| \w{4} | Match exactly four word characters |
+| f{1,3} | Match 'f' 1, 2, or 3 times |
+| \d{4,} | Match at least 4 digit characters |
+
 | | |
 | | |
 | **Category** | **Operator** |
