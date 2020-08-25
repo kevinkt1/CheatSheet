@@ -29,6 +29,7 @@
 | f{1,3} | Match 'f' 1, 2, or 3 times |
 | \d{4,} | Match at least 4 digit characters |
 | c* | Match 'c' 0 or more times |
+| t+ | Match 't' 1 or more times |
 | | |
 | | |
 | **Category** | **Operator** |
