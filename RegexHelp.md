@@ -29,7 +29,6 @@
 | [xyz]{5} | Match the string of length 5 consisting of characters {x,y,z}|
 | f{1,3} | Match 'f' 1, 2, or 3 times |
 | \d{4,} | Match at least 4 digit characters |
-
 | | |
 | | |
 | **Category** | **Operator** |
