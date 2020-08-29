@@ -14,9 +14,6 @@
 | [0-9] | Match digits 0 through 9 |
 | [a-z] | Match letters a through z |
 | [a-zA-Z] | Match any letter (order does not matter) |
-| | |
-| | |
-| **Category** | **Expression** |
 | \d | Match digits 0 through 9 |
 | \D | Match any non-digit character |
 | \s | Match any whitespace character [ \r\n\t\f ] |
