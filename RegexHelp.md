@@ -42,4 +42,13 @@
 | | |
 | **Grouping and Capturing** | **Description** |
 | r'\b' | Word boundary special character (r is needed in Python to avoid confusion with the backspace character) |
+| () | Capture a group |
+| ()? | Optionally capture this group |
+| \1 | Matches the same text as previously matched by the first capturing group |
+
+## Edge Cases
+* `(b?)o\1`
+    * Successfully matches 'o' because the backreference matches the nothing captured by the group
+* `(b)?o\1`
+    * In most regex flavors (excluding JavaScript), this regex pattern fails to match 'o' because the backreference references a group that did not participate in the match at all
 
