@@ -43,7 +43,8 @@
 | **Grouping and Capturing** | **Description** |
 | r'\b' | Word boundary special character (r is needed in Python to avoid confusion with the backspace character) |
 | () | Capture a group |
-| ()? | Optionally capture this group |
+| ? | Optionally capture this group |
+| (?\|regex1\|regex2) | Known as a 'branch reset group' that matches one of these groups or nothing |
 | \1 | Matches the same text as previously matched by the first capturing group |
 
 ## Edge Cases
