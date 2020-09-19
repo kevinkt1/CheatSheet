@@ -52,6 +52,7 @@
 | **Lookahead** | **Description** |
 | a(?!b) | Negative lookahead to notate that 'b' cannnot immediately follow 'a' |
 | a(?=b) | Positive lookahead to notate that 'b' must follow 'a' |
+| (?<=a)b |  Positive lookbehind to notate that 'a' must precede 'b' |
 
 
 ## Edge Cases
