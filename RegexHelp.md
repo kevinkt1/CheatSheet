@@ -50,10 +50,10 @@
 | | |
 | | |
 | **Lookahead** | **Description** |
-| a(?!b) | Negative lookahead to notate that 'b' cannnot immediately follow 'a' |
-| a(?=b) | Positive lookahead to notate that 'b' must follow 'a' |
+| a(?!b) | Negative lookahead to notate that 'a' cannot be followed by 'b' |
+| a(?=b) | Positive lookahead to notate that 'a' must be followed by 'b' |
 | (?<=a)b |  Positive lookbehind to notate that 'a' must precede 'b' |
-
+| (?<!a)b | Negative lookbehind to notate that 'a' cannot precede 'b' |
 
 ## Edge Cases
 * `(b?)o\1`
