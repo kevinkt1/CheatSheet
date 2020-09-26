@@ -5,9 +5,11 @@
 * C/C++
 * CMake
 * CMake Tools
+* CSS Peek
 * Cython
 * Material Icon Theme
 * PlantUML
 * Python
 * Remote - WSL
+* Trailing Spaces
 
