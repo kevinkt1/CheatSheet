@@ -13,3 +13,6 @@
 * Remote - WSL
 * Trailing Spaces
 
+##### Keyboard Shortcuts
+* `F11` to fullscreen
+* `F12` to navigate to function
