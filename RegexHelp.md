@@ -4,7 +4,7 @@
 | **Syntax** | **Description** |
 |---|---|
 | a | Match 'a' |
-| \. | Match '.' |
+| \\. | Match '.' |
 | . | Match any single character except newline |
 | | |
 | | |
