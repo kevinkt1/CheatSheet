@@ -7,6 +7,8 @@
 * DocBlockr
 * Markdown Preview
 * Anaconda
+* https://github.com/NeoVintageous/NeoVintageous
+* https://github.com/NeoVintageous/ToggleNeoVintageous
 
 ##### Anaconda Package
 * Display signature tooltips: _Anaconda: Display Object Docs_ `CTRL+ALT+D`
