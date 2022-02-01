@@ -14,25 +14,17 @@ In normal mode, type `:set ff?` to see what the file format is. If it is DOS, th
 %s;^\(\s\+\);\=repeat(' ', len(submatch(0))/2);g
 ```
 ## Key bindings
-* Opening VIM
-* Exiting VIM
-* Save without quitting
 * Move with h,j,k,l
-* Going into insert mode
-* Going back to command mode
 * dd for delete line
-* Use arrow keys to move (not recommended)
 * G and gg for top and bottom lines
 * {,} to skip blocks of code
-* Using numbers to loop command
 * u for undo and redo
-* Cntrl+r for redo
+* Ctrl+r for redo
 * yy for copying line 
 * p for pasting line below
 * P for pasting line above
 * using dd to cut a line for pasting
 * use V for visual line mode to select lines
-* Do stuff with selected lines
 * o for inserting the new line below
 * O for inserting new line above
 * d+<command> to delete characters
@@ -54,13 +46,8 @@ In normal mode, type `:set ff?` to see what the file format is. If it is DOS, th
 * ~ to change the case of a letter
 * . to repeat the last executed command
 * r to replace a letter, R to go to replace mode
-* Commend combo to move a chunk of code from bottom to top
-* Commend combo to wrap a chunk of code
 * \>\> to indent line, << to unindent
-* macros
-* Rafactoring example
 * v for selecting chunks of characters
-* Cntrl+v to select in a block format
+* Ctrl+v to select in a block format
 * /<chars> to search for words in the document,n goto next occurrence
-* Removing multiple occurrences using macros
 
