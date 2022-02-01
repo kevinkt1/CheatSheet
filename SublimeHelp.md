@@ -1,15 +1,17 @@
 # Sublime Cheat Sheet
-##### Sublime Keyboard Shortcuts
+## Sublime keyboard shortcuts
 * Command Palette `CTRL+SHIFT+P`
 * To wrap a line that exceeds past the first ruler, press `ALT+Q`
 
-##### Packages Installed
+## Packages installed
 * DocBlockr
 * Markdown Preview
 * Anaconda
 * https://github.com/NeoVintageous/NeoVintageous
 * https://github.com/NeoVintageous/ToggleNeoVintageous
 
-##### Anaconda Package
+## Anaconda package
 * Display signature tooltips: _Anaconda: Display Object Docs_ `CTRL+ALT+D`
 
+## NeoVintageous package
+* Toggle NeoVintageous: CTRL+ALT+T
