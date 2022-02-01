@@ -56,7 +56,7 @@ In normal mode, type `:set ff?` to see what the file format is. If it is DOS, th
 * r to replace a letter, R to go to replace mode
 * Commend combo to move a chunk of code from bottom to top
 * Commend combo to wrap a chunk of code
-* >> to indent line, << to unindent
+* \>\> to indent line, << to unindent
 * macros
 * Rafactoring example
 * v for selecting chunks of characters
