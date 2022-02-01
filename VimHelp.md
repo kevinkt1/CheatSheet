@@ -50,4 +50,11 @@ In normal mode, type `:set ff?` to see what the file format is. If it is DOS, th
 * v for selecting chunks of characters
 * Ctrl+v to select in a block format
 * /<chars> to search for words in the document,n goto next occurrence
+* d3w : Delete 3 word(s)
+* y3w : Yank/Copy 3 word(s)
+* 3p : Put/Paste 3 (times)
+* dt" : Delete To "
+* 3j : 3 lines down
+* di": Delete inside "..."
+* dG: Delete to the bottom of the file
 
