@@ -182,6 +182,6 @@ Add a loop inside the main.
 ## Close/minimize an application without an X button
 1. Click on the application to gain focus
 1. If you are confident that you have focus:
-  * To close the application, press `ALT + F4`.
-  * To minimize the application, press `n`.
+    * To close the application, press `ALT + F4`.
+    * To minimize the application, press `n`.
 1. Otherwise, press `ALT + SPACE` to bring up the context menu.
