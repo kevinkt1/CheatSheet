@@ -77,6 +77,10 @@ Command-line:
 
 1. `git cherry-pick continue`
 
+## [Remote](https://docs.github.com/en/github/using-git/changing-a-remotes-url)
+### Changing a remote's URL
+`git remote set-url origin https://github.com/USERNAME/REPOSITORY.git`
+
 ## Reset
 ### Reset to a commit as it was
 `git reset --hard commit-number`
