@@ -193,6 +193,21 @@ p = subprocess.run(fullCmdStr,
 #### Return Value
 * `p.returncode` is set to 0 if the command completed successfully.
 
+---
+
+# Qt Creator Cheat Sheet
+## Go to function definition
+`F2`
+
+## Go to line number
+`CTRL+L`
+
+## Search with the Locator tool
+`CTRL+K`
+
+## Switch between header and source files
+`F4`
+
 --- 
 
 # Regex
