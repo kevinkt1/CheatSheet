@@ -200,10 +200,10 @@ p = subprocess.run(fullCmdStr,
 `F2`
 
 ## Go to line number
-`CTRL+L`
+`CTRL + L`
 
 ## Search with the Locator tool
-`CTRL+K`
+`CTRL + K`
 
 ## Switch between header and source files
 `F4`
@@ -276,6 +276,31 @@ p = subprocess.run(fullCmdStr,
 # PyTest
 ## Loop a PyTest script
 Add a loop inside the main.
+
+---
+
+# Sublime
+## Keyboard Shortcuts
+### Command Palette
+`CTRL + SHIFT + P`
+
+### Wrap selected lines that exceed past the first ruler
+`ALT + Q`
+
+## Packages
+### Anaconda package
+#### Display signature tooltips (Anaconda: Display Object Docs)
+`CTRL + ALT + D`
+
+### DocBlockr
+
+### Markdown Preview
+
+### [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous)
+
+### [ToggleNeoVintageous](https://github.com/NeoVintageous/ToggleNeoVintageous)
+#### Toggle NeoVintageous
+`CTRL + ALT + T`
 
 ---
 
