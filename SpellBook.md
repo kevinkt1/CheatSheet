@@ -103,6 +103,15 @@ git reset --hard origin/branch-name
 
 ---
 
+# IntelliJ IDEA
+## Settings menu
+`CTRL + ALT + S`
+
+## Find a file
+`CTRL + SHIFT + N`
+
+---
+
 # Linux
 ## find
 ### Find a file
