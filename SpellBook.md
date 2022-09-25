@@ -7,6 +7,7 @@
 	* [Link text](#link-text)
 	* [Numbered List](#numbered-list)
 * [Doxygen](#doxygen)
+	* [Quick Start](#quick-start)
 * [Emacs](#emacs)
 	* [Delete a word](#delete-a-word)
 	* [Move to beginning of line](#move-to-beginning-of-line)
@@ -158,6 +159,7 @@
 ---
 
 # Doxygen
+## Quick Start
 1. `doxygen -g`
 1. Edit the newly generated Doxyfile to set the `RECURSIVE` tag to `YES`
 1. `doxygen Doxyfile`
