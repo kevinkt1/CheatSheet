@@ -304,6 +304,106 @@ Add a loop inside the main.
 
 ---
 
+# Vim
+## Command mode
+### [Change DOS to Unix text file format](https://til.hashrocket.com/posts/hu3jlszfrf-change-dos-to-unix-text-file-format-in-vim)
+```vim
+" Determine the current file format
+:set ff?
+
+" If the current file format is DOS, change the file format to Unix
+:set ff=unix
+```
+
+### [Convert 4 spaces to 2 spaces](https://gist.github.com/ericdouglas/72621cb47b368297feaa)
+```vim
+:%s;^\(\s\+\);\=repeat(' ', len(submatch(0))/2);g
+```
+
+### [Convert tabs to 2 spaces](https://gist.github.com/ericdouglas/72621cb47b368297feaa)
+```vim
+:%s/\t/  /g
+```
+
+### [Convert tabs to spaces](https://stackoverflow.com/questions/426963/replace-tabs-with-spaces-in-vim)
+```vim
+:retab
+```
+
+### Jump to line number
+```vim
+" Jump to line 25
+:25
+```
+
+## Insertion Mode
+### Append by inserting after the cursor
+`a`
+
+### Insert before the cursor
+`i`
+
+### Append to the end of the line
+`A`
+
+### Insert before the first word of the line
+`I`
+
+## Normal Mode
+### Find all matches of word under cursor
+`*`
+
+### Jump to line number
+```vim
+" Jump to line 25
+25G
+```
+
+### Movement
+#### Center page around cursor
+`zz`
+
+# Change/delete next instance of enclosed characters within double quotation marks
+`ci"`
+`di"`
+
+# Change/delete next instance of enclosed characters within single quotation marks
+`ci'`
+`di'`
+
+#### Move cursor to the next instance of 'a'
+`fa`
+
+#### Move cursor to right before the next instance of 'a'
+`ta`
+
+#### Move cursor to the previous instance of 'a'
+`Fa`
+
+#### Move cursor to right after the previous instance of 'a'
+`Ta`
+
+#### Move to next match
+`;`
+
+#### Skip to previous blank line
+`{`
+
+#### Skip to next blank line
+`}`
+
+## Visual Mode
+### Select characters
+`v`
+
+### Select a whole line
+`V`
+
+### Select a whole block
+`CTRL + v` OR `CTRL + q`
+
+---
+
 # Visual Studio Code
 ## Go back
 `CTRL + ALT + -`
