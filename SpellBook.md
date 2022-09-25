@@ -484,3 +484,12 @@ Note that the setup below is still not as preferable as using the original Vim.
     * To close the application, press `ALT + F4`.
     * To minimize the application, press `n`.
 1. Otherwise, press `ALT + SPACE` to bring up the context menu.
+
+---
+
+# YouTube
+## Disable suggested videos at the end of a video
+Bring up the browser console (F12 on Chrome), and inject:
+```javascript
+for(element of document.getElementsByClassName('ytp-ce-element')) {     element.style.display = 'none'; }  
+```
