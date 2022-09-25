@@ -6,6 +6,7 @@
 	* [Heading 1](#heading-1)
 	* [Link text](#link-text)
 	* [Numbered List](#numbered-list)
+* [Doxygen](#doxygen)
 * [Emacs](#emacs)
 	* [Delete a word](#delete-a-word)
 	* [Move to beginning of line](#move-to-beginning-of-line)
@@ -153,6 +154,14 @@
 
 ## Numbered List
 `CTRL + SHIFT + 7`
+
+---
+
+# Doxygen
+1. `doxygen -g`
+1. Edit the newly generated Doxyfile to set the `RECURSIVE` tag to `YES`
+1. `doxygen Doxyfile`
+1. Open up `html/index.html`
 
 ---
 
