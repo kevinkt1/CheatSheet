@@ -405,9 +405,34 @@ Add a loop inside the main.
 ---
 
 # Visual Studio Code
+It should be noted that I rarely use Visual Studio Code these days.
+
+## Extensions
+* Bookmarks
+* Bracket Pair Colorizer 2
+* C/C++
+* CMake
+* CMake Tools
+* CSS Peek
+* Cython
+* Material Icon Theme
+* PlantUML
+* Python
+* Remote - WSL
+* Trailing Spaces
+    * Currently, for a reason that I've long forgotten, I am not using this extension.
+
 ## Keyboard Shortcuts
-### Go back
+### Code Navigation
+#### Go back
 `CTRL + ALT + -`
+
+#### Navigate to function definition
+`F12`
+
+### Views
+#### Toggle fullscreen
+`F11`
 
 ## Setup Vim for Visual Studio Code
 Note that the setup below is still not as preferable as using the original Vim.
