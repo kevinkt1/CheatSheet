@@ -1,6 +1,6 @@
 import socket
 
-# Use the local host IP address
+# Resolve local host to an IP address
 HOST = socket.gethostbyname('localhost') # "127.0.0.1"
 
 # Port numbers under 1024 require special privileges.
