@@ -1,5 +1,7 @@
+import socket
+
 # Use the local host IP address
-HOST = "127.0.0.1"
+HOST = socket.gethostbyname('localhost') # "127.0.0.1"
 
 # Port numbers under 1024 require special privileges.
 # Therefore, use any port number above 1024.

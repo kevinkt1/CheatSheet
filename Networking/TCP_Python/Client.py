@@ -11,13 +11,18 @@ import sys
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
 
   # Connect to the server
+  print(f'Client is attempting a connection to the server at {HOST}:{PORT}.')
   sock.connect((HOST, PORT))
+  print(f'Client is connected to {HOST}:{PORT}.')
 
   # Send bytes of data to the server
-  sock.sendall(b'Hello, world!')
+  dataStr = 'Hello, world!'
+  print(f'Client is sending data to the server: {dataStr}')
+  sock.sendall(dataStr.encode())
 
   # Read the server's reply (up to 1024 bytes of data)
-  data = sock.recv(1024)
+  print(f'Client is awaiting a response from the server.')
+  dataBytes = sock.recv(1024)
 
-print(f'Received {sys.getsizeof(data)} bytes of data from the server: {data}')
+  print(f'Client received {sys.getsizeof(dataBytes)} bytes of data from the server: {dataBytes.decode()}')
 
