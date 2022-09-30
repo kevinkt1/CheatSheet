@@ -41,8 +41,11 @@
 	* [Status](#status)
 		* [Discard all untracked files](#discard-all-untracked-files)
 * [IntelliJ IDEA](#intellij-idea)
-	* [Settings menu](#settings-menu)
+	* [Close current file](#close-current-file)
 	* [Find a file](#find-a-file)
+	* [Find text in all files](#find-text-in-all-files)
+	* [Navigate to definition](#navigate-to-definition)
+	* [Settings menu](#settings-menu)
 * [Linux](#linux)
 	* [find](#find)
 		* [Find a file](#find-a-file-1)
@@ -262,11 +265,21 @@ git reset --hard origin/branch-name
 ---
 
 # IntelliJ IDEA
-## Settings menu
-`CTRL + ALT + S`
+## Close current file
+`CTRL + F4`
 
 ## Find a file
 `CTRL + SHIFT + N`
+
+## Find text in all files
+`CTRL + SHIFT + F`
+
+## Navigate to definition
+`CTRL + ALT + B`
+
+## Settings menu
+`CTRL + ALT + S`
+
 
 ---
 
