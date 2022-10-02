@@ -42,10 +42,12 @@
 		* [Discard all untracked files](#discard-all-untracked-files)
 * [IntelliJ IDEA](#intellij-idea)
 	* [Close current file](#close-current-file)
+	* [Find a class](#find-a-class)
 	* [Find a file](#find-a-file)
 	* [Find text in all files](#find-text-in-all-files)
 	* [Navigate to definition](#navigate-to-definition)
 	* [Settings menu](#settings-menu)
+	* [Switch tab](#switch-tab)
 * [Linux](#linux)
 	* [find](#find)
 		* [Find a file](#find-a-file-1)
@@ -268,6 +270,9 @@ git reset --hard origin/branch-name
 ## Close current file
 `CTRL + F4`
 
+## Find a class
+`CTRL + N`
+
 ## Find a file
 `CTRL + SHIFT + N`
 
@@ -275,11 +280,17 @@ git reset --hard origin/branch-name
 `CTRL + SHIFT + F`
 
 ## Navigate to definition
-`CTRL + ALT + B`
+Any of these keys will work:
+
+* `CTRL + Left Click`
+* `CTRL + ALT + B`
 
 ## Settings menu
 `CTRL + ALT + S`
 
+## Switch tab
+* `ALT + Left`
+* `ALT + Right`
 
 ---
 
