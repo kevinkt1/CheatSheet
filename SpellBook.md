@@ -46,6 +46,7 @@
   * [Find a class](#find-a-class)
   * [Find a file](#find-a-file)
   * [Find text in all files](#find-text-in-all-files)
+  * [Find usages](#find-usages)
   * [Navigate to definition](#navigate-to-definition)
   * [Settings menu](#settings-menu)
   * [Switch tab](#switch-tab)
@@ -282,6 +283,9 @@ git reset --hard origin/branch-name
 
 ## Find text in all files
 `CTRL + SHIFT + F`
+
+## Find usages
+`ALT + F7`
 
 ## Navigate to definition
 Any of these keys will work:
