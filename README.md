@@ -188,7 +188,7 @@ That said, I will probably exclude things that I already know to heart, such as 
 * `@brief` does not matter in classes and functions.
 * A doxygen comment is required at the top of a namespace to generate doxygen for the members within.
 * A doxygen comment is not required at the top of a class.
-* Don't add const to the end of `@copydoc`.
+* Add `const` to the end of `@copydoc` if `const` is part of the function signature.
 * `@param[in]` does matter.
 * `@param [in]` also works.
 * `@throw` and `@throws` both work. Be sure to specify the exception, e.g., `@throw RuntimeError upon ...`
