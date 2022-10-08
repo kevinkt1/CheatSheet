@@ -183,14 +183,14 @@ That said, I will probably exclude things that I already know to heart, such as 
 1. Open up `html/index.html`.
 
 ## Notes
-* @file and @brief matters in the top-level comment at the start of the file.
-* @brief does not matter in classes and functions.
+* `@file` and `@brief` matters in the top-level comment at the start of the file.
+* `@brief` does not matter in classes and functions.
 * A doxygen comment is required at the top of a namespace to generate doxygen for the members within.
 * A doxygen comment is not required at the top of a class. However, doxygen will only be generated for public members.
-* Don't add const to the end of @copydoc.
-* @param[in] does matter.
-* @param [in] also works.
-* @throw and @throws both work. Be sure to specify the exception, e.g., @throw RuntimeError upon ...
+* Don't add const to the end of `@copydoc`.
+* `@param[in]` does matter.
+* `@param [in]` also works.
+* `@throw` and `@throws` both work. Be sure to specify the exception, e.g., `@throw RuntimeError upon ...`
 
 ---
 
