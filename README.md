@@ -357,10 +357,10 @@ Any of these keys will work:
 ## tar
 ### Archive
 #### Create archive without compression
-`tar -cvf sample.tar file1 file2 file3`
+`tar -cvf sample.tar file1 file2`
 
 #### Compress files via gzip
-`tar -zcvf sample.tgz file1 file2 file3`
+`tar -zcvf sample.tgz file1 file2`
 
 ### Extraction
 #### Preview tarball contents without extracting
@@ -382,10 +382,10 @@ Any of these keys will work:
 ## zip
 ### Zipping
 #### Zip up multiple files
-`zip sample.zip file1 file2 file3`
+`zip sample.zip file1 file2`
 
 #### Zip up a directory
-`zip -r sample.zip dir1`
+`zip -r sample.zip dir1/ dir2/`
 
 ### Unzipping
 #### Unzip a file to the current working directory
