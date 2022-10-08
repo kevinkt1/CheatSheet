@@ -179,6 +179,7 @@ That said, I will probably exclude things that I already know to heart, such as 
 ## Quick Start
 1. `doxygen -g`
 1. Edit the newly generated Doxyfile to set the `RECURSIVE` tag to `YES`.
+1. To show private members, set `EXTRACT_PRIVATE` to `YES`.
 1. `doxygen Doxyfile`
 1. Open up `html/index.html`.
 
@@ -186,7 +187,7 @@ That said, I will probably exclude things that I already know to heart, such as 
 * `@file` and `@brief` matters in the top-level comment at the start of the file.
 * `@brief` does not matter in classes and functions.
 * A doxygen comment is required at the top of a namespace to generate doxygen for the members within.
-* A doxygen comment is not required at the top of a class. However, doxygen will only be generated for public members.
+* A doxygen comment is not required at the top of a class.
 * Don't add const to the end of `@copydoc`.
 * `@param[in]` does matter.
 * `@param [in]` also works.
