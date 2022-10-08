@@ -68,16 +68,21 @@ That said, I will probably exclude things that I already know to heart, such as 
   * [ls](#ls)
     * [Sort all files by time](#sort-all-files-by-time)
   * [tar](#tar)
-    * [Create archive without compression](#create-archive-without-compression)
-    * [Compress files via gzip](#compress-files-via-gzip)
-    * [Preview tarball contents without extracting](#preview-tarball-contents-without-extracting)
-    * [Extract tarball to current working directory](#extract-tarball-to-current-working-directory)
-    * [Extract file to a target directory](#extract-file-to-a-target-directory)
+    * [Archive](#archive)
+      * [Create archive without compression](#create-archive-without-compression)
+      * [Compress files via gzip](#compress-files-via-gzip)
+    * [Extraction](#extraction)
+      * [Preview tarball contents without extracting](#preview-tarball-contents-without-extracting)
+      * [Extract tarball to current working directory](#extract-tarball-to-current-working-directory)
+      * [Extract file to a target directory](#extract-file-to-a-target-directory)
     * [A note on tarball file extensions](#a-note-on-tarball-file-extensions)
   * [zip](#zip)
-    * [Zip up multiple files](#zip-up-multiple-files)
-    * [Unzip a file to the current working directory](#unzip-a-file-to-the-current-working-directory)
-    * [Unzip a file to the target directory](#unzip-a-file-to-the-target-directory)
+    * [Zipping](#zipping)
+      * [Zip up multiple files](#zip-up-multiple-files)
+      * [Zip up a directory](#zip-up-a-directory)
+    * [Unzipping](#unzipping)
+      * [Unzip a file to the current working directory](#unzip-a-file-to-the-current-working-directory)
+      * [Unzip a file to the target directory](#unzip-a-file-to-the-target-directory)
 * [Outlook](#outlook)
   * [Bullet list](#bullet-list-1)
   * [Link text](#link-text-1)
@@ -350,21 +355,23 @@ Any of these keys will work:
 `ls -lta`
 
 ## tar
-### Create archive without compression
+### Archive
+#### Create archive without compression
 `tar -cvf sample.tar file1 file2 file3`
 
-### Compress files via gzip
+#### Compress files via gzip
 `tar -zcvf sample.tgz file1 file2 file3`
 
-### Preview tarball contents without extracting
+### Extraction
+#### Preview tarball contents without extracting
 `tar -tvf file.tgz`
 * `-t` is shorthand for `--test`
 
-### Extract tarball to current working directory
+#### Extract tarball to current working directory
 `tar -xvf file.tar`
 * `-xvf` is shorthand for `--extract --verbose --file`
 
-### Extract file to a target directory
+#### Extract file to a target directory
 `tar -C target-directory file.tgz`
 * `-C` changes to the target directory before extracting the tar file
 
@@ -373,14 +380,18 @@ Any of these keys will work:
 * `.tgz`, `.tar.gz`, and `.gz` are the conventional file extensions indicating the tarball is storing compressed data.
 
 ## zip
-### Zip up multiple files
+### Zipping
+#### Zip up multiple files
 `zip sample.zip file1 file2 file3`
-* Add `-r` flag to zip a directory
 
-### Unzip a file to the current working directory
+#### Zip up a directory
+`zip -r sample.zip dir1`
+
+### Unzipping
+#### Unzip a file to the current working directory
 `unzip file.zip`
 
-### Unzip a file to the target directory
+#### Unzip a file to the target directory
 `unzip -d target-directory file.zip`
 
 ---
