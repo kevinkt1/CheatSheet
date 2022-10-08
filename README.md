@@ -191,7 +191,7 @@ That said, I will probably exclude things that I already know to heart, such as 
 * Add `const` to the end of `@copydoc` if `const` is part of the method signature.
 * `@param[in]` does matter.
 * `@param [in]` also works.
-* `@throw` and `@throws` both work. Be sure to specify the exception, e.g., `@throw RuntimeError upon ...`
+* `@throw` and `@throws` both work. Be sure to specify the exception, e.g., `@throw RuntimeError upon ...`.
 
 ---
 
