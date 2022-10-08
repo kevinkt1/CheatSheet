@@ -13,12 +13,16 @@ That said, I will probably exclude things that I already know to heart, such as 
   * [Numbered List](#numbered-list)
 * [Doxygen](#doxygen)
   * [Quick Start](#quick-start)
+  * [Notes](#notes)
 * [Emacs](#emacs)
   * [Delete a word](#delete-a-word)
   * [Move to beginning of line](#move-to-beginning-of-line)
   * [Move to end of line](#move-to-end-of-line)
   * [Move to beginning of word](#move-to-beginning-of-word)
   * [Move to end of word](#move-to-end-of-word)
+* [Excel](#excel)
+  * [Delete spreadsheet](#delete-spreadsheet)
+  * [Rename Excel](#rename-excel)
 * [GDB](#gdb)
   * [Define the user limit to allow for generation of core files with an unlimited maximum size](#define-the-user-limit-to-allow-for-generation-of-core-files-with-an-unlimited-maximum-size)
 * [Git](#git)
@@ -75,6 +79,7 @@ That said, I will probably exclude things that I already know to heart, such as 
     * [Unzip a file to the current working directory](#unzip-a-file-to-the-current-working-directory)
     * [Unzip a file to the target directory](#unzip-a-file-to-the-target-directory)
 * [Outlook](#outlook)
+  * [Bullet list](#bullet-list-1)
   * [Link text](#link-text-1)
 * [Python](#python)
   * [Subprocess](#subprocess)
@@ -173,9 +178,19 @@ That said, I will probably exclude things that I already know to heart, such as 
 # Doxygen
 ## Quick Start
 1. `doxygen -g`
-1. Edit the newly generated Doxyfile to set the `RECURSIVE` tag to `YES`
+1. Edit the newly generated Doxyfile to set the `RECURSIVE` tag to `YES`.
 1. `doxygen Doxyfile`
-1. Open up `html/index.html`
+1. Open up `html/index.html`.
+
+## Notes
+* @file and @brief matters in the top-level comment at the start of the file.
+* @brief does not matter in classes and functions.
+* A doxygen comment is required at the top of a namespace to generate doxygen for the members within.
+* A doxygen comment is not required at the top of a class. However, doxygen will only be generated for public members.
+* Don't add const to the end of @copydoc.
+* @param[in] does matter.
+* @param [in] also works.
+* @throw and @throws both work. Be sure to specify the exception, e.g., @throw RuntimeError upon ...
 
 ---
 
@@ -196,6 +211,15 @@ That said, I will probably exclude things that I already know to heart, such as 
 `ESC + f`
 
 --- 
+
+# Excel
+## Delete spreadsheet
+`ALT + H + D + S`
+
+## Rename Excel
+`ALT + H + O + R`
+
+---
 
 # GDB
 ## Define the user limit to allow for generation of core files with an unlimited maximum size
@@ -361,6 +385,9 @@ Any of these keys will work:
 ---
 
 # Outlook
+## Bullet list
+`* + <space>`
+
 ## Link text
 `CTRL + K`
 
