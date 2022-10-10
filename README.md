@@ -56,6 +56,7 @@ That said, I will probably exclude things that I already know to heart, such as 
   * [Find a file](#find-a-file)
   * [Find text in all files](#find-text-in-all-files)
   * [Find usages](#find-usages)
+  * [Go back](#go-back)
   * [Navigate to definition](#navigate-to-definition)
   * [Settings menu](#settings-menu)
   * [Switch tab](#switch-tab)
@@ -152,7 +153,7 @@ That said, I will probably exclude things that I already know to heart, such as 
   * [Extensions](#extensions)
   * [Keyboard Shortcuts](#keyboard-shortcuts-1)
     * [Code Navigation](#code-navigation)
-      * [Go back](#go-back)
+      * [Go back](#go-back-1)
       * [Navigate to function definition](#navigate-to-function-definition)
     * [Views](#views)
       * [Toggle fullscreen](#toggle-fullscreen)
@@ -321,6 +322,9 @@ git reset --hard origin/branch-name
 
 ## Find usages
 `ALT + F7`
+
+## Go back
+`CTRL + ALT + Left Arrow`
 
 ## Navigate to definition
 Any of these keys will work:
