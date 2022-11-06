@@ -14,6 +14,8 @@ That said, I will probably exclude things that I already know to heart, such as 
 * [Doxygen](#doxygen)
     * [Quick Start](#quick-start)
     * [Notes](#notes)
+* [Eclipse](#eclipse)
+    * [Delete current line](#delete-current-line)
 * [Emacs](#emacs)
     * [Delete a word](#delete-a-word)
     * [Move to beginning of line](#move-to-beginning-of-line)
@@ -51,7 +53,7 @@ That said, I will probably exclude things that I already know to heart, such as 
         * [Discard all untracked files](#discard-all-untracked-files)
 * [IntelliJ IDEA](#intellij-idea)
     * [Close current file](#close-current-file)
-    * [Delete current line](#delete-current-line)
+    * [Delete current line](#delete-current-line-1)
     * [Find a class](#find-a-class)
     * [Find a file](#find-a-file)
     * [Find text in all files](#find-text-in-all-files)
@@ -105,6 +107,7 @@ That said, I will probably exclude things that I already know to heart, such as 
 * [Sublime](#sublime)
     * [Keyboard Shortcuts](#keyboard-shortcuts)
         * [Command Palette](#command-palette)
+        * [Delete current line](#delete-current-line-2)
         * [Wrap selected lines that exceed past the first ruler](#wrap-selected-lines-that-exceed-past-the-first-ruler)
     * [Packages](#packages)
         * [Anaconda package](#anaconda-package)
@@ -198,6 +201,12 @@ That said, I will probably exclude things that I already know to heart, such as 
 * `@param[in]` does matter.
 * `@param [in]` also works.
 * `@throw` and `@throws` both work. Be sure to specify the exception, e.g., `@throw RuntimeError upon ...`.
+
+---
+
+# Eclipse
+## Delete current line
+`CTRL + d`
 
 ---
 
@@ -517,6 +526,9 @@ Add a loop inside the main.
 ## Keyboard Shortcuts
 ### Command Palette
 `CTRL + SHIFT + P`
+
+### Delete current line
+`CTRL + SHIFT + K`
 
 ### Wrap selected lines that exceed past the first ruler
 `ALT + Q`
