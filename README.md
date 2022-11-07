@@ -25,6 +25,8 @@ That said, I will probably exclude things that I already know to heart, such as 
 * [Excel](#excel)
     * [Delete spreadsheet](#delete-spreadsheet)
     * [Rename Excel](#rename-excel)
+* [Fedora](#fedora)
+    * [Removing a package](#removing-a-package)
 * [GDB](#gdb)
     * [Define the user limit to allow for generation of core files with an unlimited maximum size](#define-the-user-limit-to-allow-for-generation-of-core-files-with-an-unlimited-maximum-size)
 * [Git](#git)
@@ -234,6 +236,20 @@ That said, I will probably exclude things that I already know to heart, such as 
 
 ## Rename Excel
 `ALT + H + O + R`
+
+---
+
+# Fedora
+
+## Removing a package
+1. `sudo dnf remove blah`
+1. `sudo dnf autoremove`
+1. `sudo dnf clean packages`
+1. Check for leftover configuration files within these folders:
+    1. /etc
+    1. /usr/share
+    1. ~/.local
+    1. ~/.config
 
 ---
 
