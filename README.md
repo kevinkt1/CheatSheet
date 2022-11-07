@@ -246,10 +246,10 @@ That said, I will probably exclude things that I already know to heart, such as 
 1. `sudo dnf autoremove`
 1. `sudo dnf clean packages`
 1. Check for leftover configuration files within these folders:
-    1. /etc
-    1. /usr/share
-    1. ~/.local
-    1. ~/.config
+    1. `/etc`
+    1. `/usr/share`
+    1. `~/.local`
+    1. `~/.config`
 
 ---
 
