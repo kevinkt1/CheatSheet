@@ -19,8 +19,8 @@ That said, I will probably exclude things that I already know to heart, such as 
 * [Emacs](#emacs)
     * [Delete a word](#delete-a-word)
     * [Move to beginning of line](#move-to-beginning-of-line)
-    * [Move to end of line](#move-to-end-of-line)
     * [Move to beginning of word](#move-to-beginning-of-word)
+    * [Move to end of line](#move-to-end-of-line)
     * [Move to end of word](#move-to-end-of-word)
 * [Excel](#excel)
     * [Delete spreadsheet](#delete-spreadsheet)
@@ -217,11 +217,11 @@ That said, I will probably exclude things that I already know to heart, such as 
 ## Move to beginning of line
 `CTRL + a`
 
-## Move to end of line
-`CTRL + e`
-
 ## Move to beginning of word
 `ESC + b`
+
+## Move to end of line
+`CTRL + e`
 
 ## Move to end of word
 `ESC + f`
