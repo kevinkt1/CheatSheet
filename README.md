@@ -88,6 +88,9 @@ That said, I will probably exclude things that I already know to heart, such as 
         * [Unzipping](#unzipping)
             * [Unzip a file to the current working directory](#unzip-a-file-to-the-current-working-directory)
             * [Unzip a file to the target directory](#unzip-a-file-to-the-target-directory)
+* [Netcat](#netcat)
+* [Connect to an address and port](#connect-to-an-address-and-port)
+    * [Listen to a port](#listen-to-a-port)
 * [Outlook](#outlook)
     * [Bullet list](#bullet-list-1)
     * [Link text](#link-text-1)
@@ -422,6 +425,15 @@ Any of these keys will work:
 
 #### Unzip a file to the target directory
 `unzip -d target-directory file.zip`
+
+---
+
+# Netcat
+# Connect to an address and port
+`nc -vv address port`
+
+## Listen to a port
+`nc -vlp port`
 
 ---
 
