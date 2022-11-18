@@ -91,6 +91,13 @@ That said, I will probably exclude things that I already know to heart, such as 
 * [Netcat](#netcat)
 * [Connect to an address and port](#connect-to-an-address-and-port)
     * [Listen to a port](#listen-to-a-port)
+* [OpenSSL](#openssl)
+    * [Key Generation](#key-generation)
+        * [Create a private key](#create-a-private-key)
+        * [Create a public key](#create-a-public-key)
+    * [Signing and Verification](#signing-and-verification)
+        * [Signing](#signing)
+        * [Verification](#verification)
 * [Outlook](#outlook)
     * [Bullet list](#bullet-list-1)
     * [Link text](#link-text-1)
@@ -434,6 +441,24 @@ Any of these keys will work:
 
 ## Listen to a port
 `nc -vlp port`
+
+---
+
+# OpenSSL
+
+## Key Generation
+### Create a private key
+`openssl genrsa -out private_key.key 1024`
+
+### Create a public key
+`openssl rsa -in /dev/shm/key/private_key.key -out public_key.key -pubout -outform PEM`
+
+## Signing and Verification
+### Signing
+`openssl dgst -sha224 -sign /dev/shm/key/private_key.key -out sample.digest sample.tgz`
+
+### Verification
+`openssl dgst -sha224 -verify /dev/shm/key/public_key.key -signature sample.digest sample.tgz`
 
 ---
 
