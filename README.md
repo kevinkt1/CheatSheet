@@ -146,8 +146,8 @@ That said, I will probably exclude things that I already know to heart, such as 
     * [Jump to line number](#jump-to-line-number-1)
     * [Movement](#movement)
       * [Center page around cursor](#center-page-around-cursor)
-* [Change/delete next instance of enclosed characters within double quotation marks](#changedelete-next-instance-of-enclosed-characters-within-double-quotation-marks)
-* [Change/delete next instance of enclosed characters within single quotation marks](#changedelete-next-instance-of-enclosed-characters-within-single-quotation-marks)
+      * [Change/delete next instance of enclosed characters within double quotation marks](#changedelete-next-instance-of-enclosed-characters-within-double-quotation-marks)
+      * [Change/delete next instance of enclosed characters within single quotation marks](#changedelete-next-instance-of-enclosed-characters-within-single-quotation-marks)
       * [Move cursor to the next instance of 'a'](#move-cursor-to-the-next-instance-of-a)
       * [Move cursor to right before the next instance of 'a'](#move-cursor-to-right-before-the-next-instance-of-a)
       * [Move cursor to the previous instance of 'a'](#move-cursor-to-the-previous-instance-of-a)
@@ -665,11 +665,11 @@ Add a loop inside the main.
 #### Center page around cursor
 `zz`
 
-# Change/delete next instance of enclosed characters within double quotation marks
+#### Change/delete next instance of enclosed characters within double quotation marks
 `ci"`
 `di"`
 
-# Change/delete next instance of enclosed characters within single quotation marks
+#### Change/delete next instance of enclosed characters within single quotation marks
 `ci'`
 `di'`
 
