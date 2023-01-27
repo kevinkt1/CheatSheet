@@ -161,6 +161,9 @@ That said, I will probably exclude things that I already know to heart, such as 
     * [Plugins](#plugins-1)
 * [Windows](#windows)
   * [Close/minimize an application without an X button](#closeminimize-an-application-without-an-x-button)
+* [XmlLint](#xmllint)
+  * [Format an XML file](#format-an-xml-file)
+  * [Validate an XML file against the schema](#validate-an-xml-file-against-the-schema)
 * [YouTube](#youtube)
   * [Disable suggested videos at the end of a video](#disable-suggested-videos-at-the-end-of-a-video)
 
@@ -289,7 +292,7 @@ Command-line:
 `git reset --mixed commit-number`
 
 ### Reset local branch to match upstream branch exactly
-```bash
+```shell
 git pull
 git reset --hard origin/branch-name
 ```
@@ -727,6 +730,15 @@ Note that the setup below is still not as preferable as using the original Vim.
     * To close the application, press `ALT + F4`.
     * To minimize the application, press `n`.
 1. Otherwise, press `ALT + SPACE` to bring up the context menu.
+
+---
+
+# XmlLint
+## Format an XML file
+`xmllint --format old_file.xml > new_file.xml`
+
+## Validate an XML file against the schema
+`xmllint --noout --schema schema.xsd file.xml`
 
 ---
 
