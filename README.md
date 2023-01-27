@@ -14,15 +14,19 @@ That said, I will probably exclude things that I already know to heart, such as 
 * [Doxygen](#doxygen)
   * [Quick Start](#quick-start)
   * [Notes](#notes)
+* [Eclipse](#eclipse)
+  * [Delete current line](#delete-current-line)
 * [Emacs](#emacs)
   * [Delete a word](#delete-a-word)
   * [Move to beginning of line](#move-to-beginning-of-line)
-  * [Move to end of line](#move-to-end-of-line)
   * [Move to beginning of word](#move-to-beginning-of-word)
+  * [Move to end of line](#move-to-end-of-line)
   * [Move to end of word](#move-to-end-of-word)
 * [Excel](#excel)
   * [Delete spreadsheet](#delete-spreadsheet)
   * [Rename Excel](#rename-excel)
+* [Fedora](#fedora)
+  * [Removing a package](#removing-a-package)
 * [GDB](#gdb)
   * [Define the user limit to allow for generation of core files with an unlimited maximum size](#define-the-user-limit-to-allow-for-generation-of-core-files-with-an-unlimited-maximum-size)
 * [Git](#git)
@@ -51,7 +55,7 @@ That said, I will probably exclude things that I already know to heart, such as 
     * [Discard all untracked files](#discard-all-untracked-files)
 * [IntelliJ IDEA](#intellij-idea)
   * [Close current file](#close-current-file)
-  * [Delete current line](#delete-current-line)
+  * [Delete current line](#delete-current-line-1)
   * [Find a class](#find-a-class)
   * [Find a file](#find-a-file)
   * [Find text in all files](#find-text-in-all-files)
@@ -84,6 +88,16 @@ That said, I will probably exclude things that I already know to heart, such as 
     * [Unzipping](#unzipping)
       * [Unzip a file to the current working directory](#unzip-a-file-to-the-current-working-directory)
       * [Unzip a file to the target directory](#unzip-a-file-to-the-target-directory)
+* [Netcat](#netcat)
+* [Connect to an address and port](#connect-to-an-address-and-port)
+  * [Listen to a port](#listen-to-a-port)
+* [OpenSSL](#openssl)
+  * [Key Generation](#key-generation)
+    * [Create a private key](#create-a-private-key)
+    * [Create a public key](#create-a-public-key)
+  * [Signing and Verification](#signing-and-verification)
+    * [Signing](#signing)
+    * [Verification](#verification)
 * [Outlook](#outlook)
   * [Bullet list](#bullet-list-1)
   * [Link text](#link-text-1)
@@ -105,6 +119,7 @@ That said, I will probably exclude things that I already know to heart, such as 
 * [Sublime](#sublime)
   * [Keyboard Shortcuts](#keyboard-shortcuts)
     * [Command Palette](#command-palette)
+    * [Delete current line](#delete-current-line-2)
     * [Wrap selected lines that exceed past the first ruler](#wrap-selected-lines-that-exceed-past-the-first-ruler)
   * [Packages](#packages)
     * [Anaconda package](#anaconda-package)
@@ -204,6 +219,12 @@ That said, I will probably exclude things that I already know to heart, such as 
 
 ---
 
+# Eclipse
+## Delete current line
+`CTRL + d`
+
+---
+
 # Emacs
 ## Delete a word
 `ESC + d`
@@ -211,11 +232,11 @@ That said, I will probably exclude things that I already know to heart, such as 
 ## Move to beginning of line
 `CTRL + a`
 
-## Move to end of line
-`CTRL + e`
-
 ## Move to beginning of word
 `ESC + b`
+
+## Move to end of line
+`CTRL + e`
 
 ## Move to end of word
 `ESC + f`
@@ -228,6 +249,20 @@ That said, I will probably exclude things that I already know to heart, such as 
 
 ## Rename Excel
 `ALT + H + O + R`
+
+---
+
+# Fedora
+
+## Removing a package
+1. `sudo dnf remove blah`
+1. `sudo dnf autoremove`
+1. `sudo dnf clean packages`
+1. Check for leftover configuration files within these folders:
+    1. `/etc`
+    1. `/usr/share`
+    1. `~/.local`
+    1. `~/.config`
 
 ---
 
@@ -367,7 +402,7 @@ Any of these keys will work:
 `tar -cvf sample.tar file1 file2`
 
 #### Compress files via gzip
-`tar -zcvf sample.tgz file1 file2`
+`tar -czvf sample.tgz file1 file2`
 
 ### Extraction
 #### Preview tarball contents without extracting
@@ -400,6 +435,33 @@ Any of these keys will work:
 
 #### Unzip a file to the target directory
 `unzip -d target-directory file.zip`
+
+---
+
+# Netcat
+# Connect to an address and port
+`nc -vv address port`
+
+## Listen to a port
+`nc -vlp port`
+
+---
+
+# OpenSSL
+
+## Key Generation
+### Create a private key
+`openssl genrsa -out private_key.key 1024`
+
+### Create a public key
+`openssl rsa -in /dev/shm/key/private_key.key -out public_key.key -pubout -outform PEM`
+
+## Signing and Verification
+### Signing
+`openssl dgst -sha224 -sign /dev/shm/key/private_key.key -out sample.digest sample.tgz`
+
+### Verification
+`openssl dgst -sha224 -verify /dev/shm/key/public_key.key -signature sample.digest sample.tgz`
 
 ---
 
@@ -520,6 +582,9 @@ Add a loop inside the main.
 ## Keyboard Shortcuts
 ### Command Palette
 `CTRL + SHIFT + P`
+
+### Delete current line
+`CTRL + SHIFT + K`
 
 ### Wrap selected lines that exceed past the first ruler
 `ALT + Q`
